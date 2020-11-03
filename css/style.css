@@ -1,3 +1,35 @@
+@font-face{
+    font-family: newFont;
+    src: url('/fonts/Montauk-Regular.otf');
+}
+
+@font-face{
+    font-family: newFont-i;
+    src: url('/fonts/Montauk-Italic.otf');
+}
+
+
+
+
 .backGroundImg{
     background-image: url("../images/bgtexture.jpg");
+}
+
+.containerFix{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.toplinkFix{
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.setNewFont{
+    font-family: newFont;
+}
+
+.setNewFontItalic{
+    font-family: newFont-i;
 }
