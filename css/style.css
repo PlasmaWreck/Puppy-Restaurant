@@ -35,6 +35,19 @@
 
 
 
+.cateringHeroImgFix{
+    background-image: url("../images/cateringHero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15%;
+    margin-top: 5%;
+    
+    
+}
+
+
+
+
 .backGroundImg{
     background-image: url("../images/bgtexture.jpg");
 }
