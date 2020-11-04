@@ -15,6 +15,26 @@
 
 
 
+.alignCenterX{
+    display: flex;
+    justify-content: center;
+}
+
+.alignCenterY{
+    display: flex;
+    align-items: center;
+}
+
+
+.cateringTitleStyling{
+    font-size: 500%;
+    background-color: white;
+    margin-top: 5%;
+}
+
+
+
+
 .backGroundImg{
     background-image: url("../images/bgtexture.jpg");
 }
@@ -52,3 +72,4 @@ a.LinkColorInherit:hover {
     font-family: newFont-b;
     color: #5F002B;
 }
+
