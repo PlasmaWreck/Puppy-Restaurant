@@ -7,6 +7,10 @@
     font-family: newFont-i;
     src: url('/fonts/Montauk-Italic.otf');
 }
+@font-face{
+    font-family: newFont-b;
+    src: url('/fonts/Montauk-Bold.otf');
+}
 
 
 
@@ -26,10 +30,25 @@
     font-size: xx-large;
 }
 
+
+a.LinkColorInherit,
+a.LinkColorInherit:hover {
+  color: #5F002B;
+  text-decoration: none;
+  
+}
+
 .setNewFont{
     font-family: newFont;
+    color: #5F002B;
 }
 
 .setNewFontItalic{
     font-family: newFont-i;
+    color: #5F002B;
+}
+
+.setNewFontBold{
+    font-family: newFont-b;
+    color: #5F002B;
 }
