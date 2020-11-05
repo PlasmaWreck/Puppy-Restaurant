@@ -1,0 +1,28 @@
+body {
+    background-image: url("../images/bgtexture.jpg");
+}
+
+center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-image {
+    background-image: url("../images/homeHero.jpg");
+}
+
+@font-face {
+    font-family: myFont;
+    src: url("../fonts/Montauk-Regular.otf");
+}
+
+
+.myFont {
+    font-family: myFont;
+}
+
+.floatRight {
+    float: right;
+}
