@@ -1,0 +1,74 @@
+.bodyImage{
+    background-image: url("../images/bgtexture.jpg");
+}
+
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+}
+
+.linkSize{
+    font-size: x-large;
+}
+.fugaz{
+    font-family: 'Fugaz One', cursive;
+    color: #5F002B;
+}
+.containerPad{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.alignContent{
+    display: flex;
+    justify-content: center;
+}
+.boldFont{
+    font-family: newFont-b;
+    color: #5F002B;
+}
+.photoStyle{
+    font-size: 500%;
+    background-color: white;
+    margin-top: 1%;
+}
+
+
+.newFont{
+    font-family: newFont;
+    color: #5F002B;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
