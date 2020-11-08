@@ -72,7 +72,7 @@
     margin-top: 5%;
     margin-bottom: 5%;
 }
-.cateringMaineIMGFix{
+.IMGFix{
    
     max-width: 100%;
     height : 100%;
@@ -145,3 +145,23 @@ a.LinkColorInherit:hover {
     font-size: x-large;
 }
 
+.superSizeText{
+    font-size: 350%;
+}
+
+.aboutHeadingFix{
+    padding-top: 3%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
+.aboutParagraphFix{
+   padding-left: 1%;
+   font-size: 20px; 
+}
+
+.aboutSubHeaderFix{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: white;
+}
