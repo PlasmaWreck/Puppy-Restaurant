@@ -1,0 +1,167 @@
+@font-face{
+    font-family: newFont;
+    src: url('/fonts/Montauk-Regular.otf');
+}
+
+@font-face{
+    font-family: newFont-i;
+    src: url('/fonts/Montauk-Italic.otf');
+}
+@font-face{
+    font-family: newFont-b;
+    src: url('/fonts/Montauk-Bold.otf');
+}
+
+@font-face{
+    font-family: newFont-l;
+    src: url('/fonts/Montauk-Light.otf');
+}
+
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+}
+
+
+
+
+.alignCenterX{
+    display: flex;
+    justify-content: center;
+}
+
+.alignCenterY{
+    display: flex;
+    align-items: center;
+}
+.alignRight{
+    display: flex;
+    justify-content: end;
+    float: right;
+    
+}
+
+.cateringTitleStyling{
+    font-size: 500%;
+    background-color: white;
+    margin-top: 5%;
+}
+
+.cateringParagraphStyling{
+    background-color: white;
+    
+}
+
+
+
+
+.cateringHeroImgFix{
+    background-image: url("../images/cateringHero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15%;
+    margin-top: 5%;
+    
+    
+}
+
+.marginMaker{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.IMGFix{
+   
+    max-width: 100%;
+    height : 100%;
+}
+.cateringMaineParagraphTitleFix{
+    padding-top: 5%;
+    padding-left: 3%;
+}
+.cateringMaineParagraphFix{
+    font-size: 20px;
+    padding-left: 3%;
+    
+}
+
+
+
+
+.backGroundImg{
+    background-image: url("../images/bgtexture.jpg");
+}
+
+.containerFix{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.toplinkFix{
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+}
+
+
+a.LinkColorInherit,
+a.LinkColorInherit:hover {
+  color: #5F002B;
+  text-decoration: none;
+  
+}
+
+.setNewFont{
+    font-family: newFont;
+    color: #5F002B;
+}
+
+.setNewFontItalic{
+    font-family: newFont-i;
+    color: #5F002B;
+}
+
+.setNewFontBold{
+    font-family: newFont-b;
+    color: #5F002B;
+}
+.setNewFontLight{
+    font-family: newFont-l;
+    color: #5F002B;
+}
+
+.fugazFont{
+    font-family: 'Fugaz One', cursive;
+    color: #5F002B;
+}
+.comapnayLogoSize{
+    height: 36px;
+    width: 100px;
+}
+
+.navbarLinkSize{
+    font-size: x-large;
+}
+
+.superSizeText{
+    font-size: 350%;
+}
+
+.aboutHeadingFix{
+    padding-top: 3%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
+.aboutParagraphFix{
+   padding-left: 1%;
+   font-size: 20px; 
+}
+
+.aboutSubHeaderFix{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: white;
+}
