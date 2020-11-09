@@ -1,6 +1,5 @@
 
 
-
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
@@ -203,9 +202,11 @@ a.LinkColorInherit:hover {
   background-image: url("../images/bgtexture.jpg");
 }
 
+
 .biggerText{
     font-size: x-large;
 }
+
 
 .linkSize {
   font-size: x-large;
@@ -259,4 +260,8 @@ a.LinkColorInherit:hover {
     align-items: flex-end;
     display: flex;
     
+
 }
+
+}
+
