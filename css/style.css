@@ -1,74 +1,90 @@
-.bodyImage{
-    background-image: url("../images/bgtexture.jpg");
+.bodyImage {
+  background-image: url("../images/bgtexture.jpg");
 }
-
+.fugazFont {
+  font-family: "Fugaz One", cursive;
+  color: #5f002b;
+}
 
 .navbar.transparent.navbar-inverse .navbar-inner {
-    border-width: 0px;
-    -webkit-box-shadow: 0px 0px;
-    box-shadow: 0px 0px;
-    background-color: rgba(0,0,0,0.0);
+  border-width: 0px;
+  -webkit-box-shadow: 0px 0px;
+  box-shadow: 0px 0px;
+  background-color: rgba(0, 0, 0, 0);
 }
 
-.linkSize{
-    font-size: x-large;
+.linkSize {
+  font-size: x-large;
 }
-.fugaz{
-    font-family: 'Fugaz One', cursive;
-    color: #5F002B;
+.fugaz {
+  font-family: "Fugaz One", cursive;
+  color: #5f002b;
 }
-.containerPad{
-    padding-left: 5%;
-    padding-right: 5%;
+.containerPad {
+  padding-left: 5%;
+  padding-right: 5%;
 }
-.alignContent{
-    display: flex;
-    justify-content: center;
+.alignContent {
+  display: flex;
+  justify-content: center;
 }
-.boldFont{
-    font-family: newFont-b;
-    color: #5F002B;
+.boldFont {
+  font-family: newFont-b;
+  color: #5f002b;
 }
-.photoStyle{
-    font-size: 500%;
-    background-color: white;
-    margin-top: 1%;
+.photoStyle {
+  font-size: 500%;
+  background-color: white;
+  margin-top: 1%;
 }
 
+.alignRight {
+  display: flex;
+  justify-content: end;
+  float: right;
+}
+.comapnayLogoSize {
+  height: 36px;
+  width: 100px;
+}
 
-.newFont{
-    font-family: newFont;
-    color: #5F002B;
+.IMGFix {
+  max-width: 100%;
+  height: 100%;
+}
+
+.newFont {
+  font-family: newFont;
+  color: #5f002b;
 }
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
   .column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
+    flex: 50%;
+    max-width: 50%;
   }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
-  
-  @media screen and (max-width: 800px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
+}
 
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
