@@ -1,3 +1,69 @@
+
+.bodyImage {
+  background-image: url("../images/bgtexture.jpg");
+}
+
+.linkSize {
+  font-size: x-large;
+}
+.fugaz {
+  font-family: "Fugaz One", cursive;
+  color: #5f002b;
+}
+.containerPad {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.alignContent {
+  display: flex;
+  justify-content: center;
+}
+.boldFont {
+  font-family: newFont-b;
+  color: #5f002b;
+}
+.photoStyle {
+  font-size: 500%;
+  background-color: white;
+  margin-top: 1%;
+}
+
+
+.newFont {
+  font-family: newFont;
+  color: #5f002b;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
 @font-face{
     font-family: newFont;
     src: url('/fonts/Montauk-Regular.otf');
@@ -164,4 +230,5 @@ a.LinkColorInherit:hover {
     padding-top: 1%;
     padding-bottom: 1%;
     background-color: white;
+
 }
