@@ -138,6 +138,12 @@ a.LinkColorInherit:hover {
   
 }
 
+.brFix{
+    height: 1px;
+    background-color: #5F002B;
+    border: #5F002B;
+}
+
 .setNewFont{
     font-family: newFont;
     color: #5F002B;
@@ -195,6 +201,10 @@ a.LinkColorInherit:hover {
 
 .bodyImage {
   background-image: url("../images/bgtexture.jpg");
+}
+
+.biggerText{
+    font-size: x-large;
 }
 
 .linkSize {
