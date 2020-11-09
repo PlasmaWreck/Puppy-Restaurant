@@ -55,6 +55,14 @@
     
 }
 
+.homeJumbotron{
+    background-image: url("../images/homeHero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15%;
+    margin-top: 2%;
+}
+
 
 
 
@@ -164,4 +172,10 @@ a.LinkColorInherit:hover {
     padding-top: 1%;
     padding-bottom: 1%;
     background-color: white;
+}
+
+.homeParagraphImgaeFix{
+    align-items: flex-end;
+    display: flex;
+    
 }
